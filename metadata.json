@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Id": "kwin_relative_pointer",
+        "Name": "Proportional cursor crossing",
+        "Name[uk]": "Пропорційний перехід курсора",
+        "Description": "Keep the relative cursor position when crossing between displays",
+        "Description[uk]": "Зберігає відносне положення курсора під час переходу між екранами",
+        "Category": "Accessibility",
+        "EnabledByDefault": false,
+        "License": "GPL-2.0-or-later"
+    }
+}

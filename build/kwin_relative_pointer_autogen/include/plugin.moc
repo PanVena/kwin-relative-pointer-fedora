@@ -1,0 +1,249 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'plugin.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.11.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'plugin.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.11.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN4KWin15RelativePointerE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto KWin::RelativePointer::qt_create_metaobjectdata<qt_meta_tag_ZN4KWin15RelativePointerE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "KWin::RelativePointer"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<RelativePointer, qt_meta_tag_ZN4KWin15RelativePointerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject KWin::RelativePointer::staticMetaObject = { {
+    QMetaObject::SuperData::link<Effect::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin15RelativePointerE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin15RelativePointerE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN4KWin15RelativePointerE_t>.metaTypes,
+    nullptr
+} };
+
+void KWin::RelativePointer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<RelativePointer *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *KWin::RelativePointer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KWin::RelativePointer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin15RelativePointerE_t>.strings))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "InputEventSpy"))
+        return static_cast< InputEventSpy*>(this);
+    return Effect::qt_metacast(_clname);
+}
+
+int KWin::RelativePointer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Effect::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+struct qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto KWin::kwin_relative_pointer_factory::qt_create_metaobjectdata<qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "KWin::kwin_relative_pointer_factory"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<kwin_relative_pointer_factory, qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject KWin::kwin_relative_pointer_factory::staticMetaObject = { {
+    QMetaObject::SuperData::link<KWin::EffectPluginFactory::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>.metaTypes,
+    nullptr
+} };
+
+void KWin::kwin_relative_pointer_factory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<kwin_relative_pointer_factory *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *KWin::kwin_relative_pointer_factory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KWin::kwin_relative_pointer_factory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4KWin29kwin_relative_pointer_factoryE_t>.strings))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.kde.KPluginFactory"))
+        return static_cast< KPluginFactory*>(this);
+    return KWin::EffectPluginFactory::qt_metacast(_clname);
+}
+
+int KWin::kwin_relative_pointer_factory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KWin::EffectPluginFactory::qt_metacall(_c, _id, _a);
+    return _id;
+}
+using namespace KWin;
+
+#ifdef QT_MOC_EXPORT_PLUGIN_V2
+static constexpr unsigned char qt_pluginMetaDataV2_kwin_relative_pointer_factory[] = {
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x25,  'o',  'r',  'g',  '.',  'k', 
+    'd',  'e',  '.',  'k',  'w',  'i',  'n',  '.', 
+    'E',  'f',  'f',  'e',  'c',  't',  'P',  'l', 
+    'u',  'g',  'i',  'n',  'F',  'a',  'c',  't', 
+    'o',  'r',  'y',  '6',  '.',  '8',  '.',  '3', 
+    // "className"
+    0x03,  0x78,  0x1d,  'k',  'w',  'i',  'n',  '_', 
+    'r',  'e',  'l',  'a',  't',  'i',  'v',  'e', 
+    '_',  'p',  'o',  'i',  'n',  't',  'e',  'r', 
+    '_',  'f',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "MetaData"
+    0x04,  0xa1,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xa6,  0x68,  'C',  'a',  't',  'e', 
+    'g',  'o',  'r',  'y',  0x6d,  'A',  'c',  'c', 
+    'e',  's',  's',  'i',  'b',  'i',  'l',  'i', 
+    't',  'y',  0x6b,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  0x78,  0x40, 
+    'K',  'e',  'e',  'p',  ' ',  't',  'h',  'e', 
+    ' ',  'r',  'e',  'l',  'a',  't',  'i',  'v', 
+    'e',  ' ',  'c',  'u',  'r',  's',  'o',  'r', 
+    ' ',  'p',  'o',  's',  'i',  't',  'i',  'o', 
+    'n',  ' ',  'w',  'h',  'e',  'n',  ' ',  'c', 
+    'r',  'o',  's',  's',  'i',  'n',  'g',  ' ', 
+    'b',  'e',  't',  'w',  'e',  'e',  'n',  ' ', 
+    'd',  'i',  's',  'p',  'l',  'a',  'y',  's', 
+    0x70,  'E',  'n',  'a',  'b',  'l',  'e',  'd', 
+    'B',  'y',  'D',  'e',  'f',  'a',  'u',  'l', 
+    't',  0xf4,  0x62,  'I',  'd',  0x75,  'k',  'w', 
+    'i',  'n',  '_',  'r',  'e',  'l',  'a',  't', 
+    'i',  'v',  'e',  '_',  'p',  'o',  'i',  'n', 
+    't',  'e',  'r',  0x67,  'L',  'i',  'c',  'e', 
+    'n',  's',  'e',  0x70,  'G',  'P',  'L',  '-', 
+    '2',  '.',  '0',  '-',  'o',  'r',  '-',  'l', 
+    'a',  't',  'e',  'r',  0x64,  'N',  'a',  'm', 
+    'e',  0x78,  0x1c,  'P',  'r',  'o',  'p',  'o', 
+    'r',  't',  'i',  'o',  'n',  'a',  'l',  ' ', 
+    'c',  'u',  'r',  's',  'o',  'r',  ' ',  'c', 
+    'r',  'o',  's',  's',  'i',  'n',  'g', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN_V2(KWin::kwin_relative_pointer_factory, kwin_relative_pointer_factory, qt_pluginMetaDataV2_kwin_relative_pointer_factory)
+#else
+QT_PLUGIN_METADATA_SECTION
+Q_CONSTINIT static constexpr unsigned char qt_pluginMetaData_kwin_relative_pointer_factory[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x25,  'o',  'r',  'g',  '.',  'k', 
+    'd',  'e',  '.',  'k',  'w',  'i',  'n',  '.', 
+    'E',  'f',  'f',  'e',  'c',  't',  'P',  'l', 
+    'u',  'g',  'i',  'n',  'F',  'a',  'c',  't', 
+    'o',  'r',  'y',  '6',  '.',  '8',  '.',  '3', 
+    // "className"
+    0x03,  0x78,  0x1d,  'k',  'w',  'i',  'n',  '_', 
+    'r',  'e',  'l',  'a',  't',  'i',  'v',  'e', 
+    '_',  'p',  'o',  'i',  'n',  't',  'e',  'r', 
+    '_',  'f',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "MetaData"
+    0x04,  0xa1,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xa6,  0x68,  'C',  'a',  't',  'e', 
+    'g',  'o',  'r',  'y',  0x6d,  'A',  'c',  'c', 
+    'e',  's',  's',  'i',  'b',  'i',  'l',  'i', 
+    't',  'y',  0x6b,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  0x78,  0x40, 
+    'K',  'e',  'e',  'p',  ' ',  't',  'h',  'e', 
+    ' ',  'r',  'e',  'l',  'a',  't',  'i',  'v', 
+    'e',  ' ',  'c',  'u',  'r',  's',  'o',  'r', 
+    ' ',  'p',  'o',  's',  'i',  't',  'i',  'o', 
+    'n',  ' ',  'w',  'h',  'e',  'n',  ' ',  'c', 
+    'r',  'o',  's',  's',  'i',  'n',  'g',  ' ', 
+    'b',  'e',  't',  'w',  'e',  'e',  'n',  ' ', 
+    'd',  'i',  's',  'p',  'l',  'a',  'y',  's', 
+    0x70,  'E',  'n',  'a',  'b',  'l',  'e',  'd', 
+    'B',  'y',  'D',  'e',  'f',  'a',  'u',  'l', 
+    't',  0xf4,  0x62,  'I',  'd',  0x75,  'k',  'w', 
+    'i',  'n',  '_',  'r',  'e',  'l',  'a',  't', 
+    'i',  'v',  'e',  '_',  'p',  'o',  'i',  'n', 
+    't',  'e',  'r',  0x67,  'L',  'i',  'c',  'e', 
+    'n',  's',  'e',  0x70,  'G',  'P',  'L',  '-', 
+    '2',  '.',  '0',  '-',  'o',  'r',  '-',  'l', 
+    'a',  't',  'e',  'r',  0x64,  'N',  'a',  'm', 
+    'e',  0x78,  0x1c,  'P',  'r',  'o',  'p',  'o', 
+    'r',  't',  'i',  'o',  'n',  'a',  'l',  ' ', 
+    'c',  'u',  'r',  's',  'o',  'r',  ' ',  'c', 
+    'r',  'o',  's',  's',  'i',  'n',  'g', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(KWin::kwin_relative_pointer_factory, kwin_relative_pointer_factory)
+#endif  // QT_MOC_EXPORT_PLUGIN_V2
+
+QT_WARNING_POP

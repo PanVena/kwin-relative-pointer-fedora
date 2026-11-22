@@ -1,0 +1,12 @@
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/uninstall.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/fetch-translations.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/kwin_relative_pointer.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/test.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/edit_cache.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/rebuild_cache.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/list_install_components.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/install.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/install/local.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/install/strip.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/kwin_relative_pointer_autogen_timestamp_deps.dir
+/home/pan-vena/Проєкти/kwin-relative-pointer-fedora/build/CMakeFiles/kwin_relative_pointer_autogen.dir

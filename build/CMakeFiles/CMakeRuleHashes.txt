@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+2a38046c825ef1648ea99339ea74a4af CMakeFiles/fetch-translations
+2b8f343e5f9ef197d949c98679436d2c CMakeFiles/kwin_relative_pointer_autogen
+e7009a7b521b6acb72506b5a63570035 CMakeFiles/uninstall
+0de275751beb653428ccc9e1340bf217 kwin_relative_pointer_autogen/timestamp
+3c54d5712f7f822cdd4d939517816d25 releaseme
